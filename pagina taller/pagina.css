@@ -1,0 +1,133 @@
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+.sec1 {
+    display: flex;
+    gap: 500px;
+}
+
+.talleres {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+}
+
+.tt {
+    text-decoration-line: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-index {
+    margin-top: 150px;
+    display: flex;
+}
+
+.cards {
+    max-width: 550px;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.texto {
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.mail {
+    padding: 10px;
+}
+
+.contacto {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.redes {
+    width: 25px;
+}
+
+footer {
+    display: flex;
+    gap: 500px;
+    margin-top: 150px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.footer1 {
+    margin-left: 10px;
+}
+
+.footer3 {
+    margin: 10px;
+}
+
+/* aca empieza el css de la pagina de web */
+
+.main-web {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-web {
+    text-align: center;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.cards {
+    width: 500px;
+    display: flex;
+    gap: 100px;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
